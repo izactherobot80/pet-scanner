@@ -1,0 +1,315 @@
+/*@font-face {
+	font-family: 'HL';
+	src: url('./fonts/HindMadurai-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'HR';
+	src: url('./fonts/HindMadurai-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'HB';
+	src: url('./fonts/HindMadurai-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+$font-bold: 'HB',sans-serif;
+$font-light: 'HL',sans-serif;
+$font-reg: 'HR',sans-serif;*/
+
+@font-face {
+	font-family: 'BL';
+	src: url('./fonts/Barlow-ExtraLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'BR';
+	src: url('./fonts/Barlow-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'BB';
+	src: url('./fonts/Barlow-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+$font-bold: 'BB',sans-serif;
+$font-light: 'BL',sans-serif;
+$font-reg: 'BR',sans-serif;
+
+$link-color: #FF8533;
+$text-color: #333;
+$text-light-color:#aaa;
+$bg-color: #37526D;
+$highlight-color: #FFE57F;
+$white-color:#fff;
+
+html,body{
+	height:100%;
+	width:100%;
+	line-height:1.5;
+	font-family: $font-light;
+	color:$text-color;
+	font-size:16px;
+  }
+
+  /* FIX FOR CHROME SCROLL */
+  body{
+	  overflow-x:hidden;
+  }
+  @media only screen and (max-width: 40em) {
+	body {font-size: 0.700em}
+  }
+  @media only screen and (min-width: 40.063em) {
+	body {font-size: 0.82666666666667em}
+  }
+  @media only screen and (min-width: 64.063em) {
+	body {font-size: 1em} 
+  }
+  
+  h1 {
+	font-family: $font-bold;
+	font-size: 3em;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: .25em;
+	margin-bottom: 1em;
+	text-align:center;
+  }
+  h2 {
+	  font-family: $font-bold;
+	color:$link-color;
+	font-size: 2.25em;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: .03em;
+	margin-bottom: .25em;
+  }
+  h3 {
+	  font-family: $font-light;
+	font-size: 2em;
+	letter-spacing: .063em;
+	margin-bottom: 1em;
+	text-align: center;
+	color:$text-light-color;
+  }
+  h4 {
+	  font-family: $font-reg;
+	font-size: 1.75em;
+	letter-spacing: .063em;
+	margin-bottom: .25em;
+	  text-transform:uppercase;
+  }
+  h5 {
+	  font-family: $font-reg;
+	font-size: 1.5em;
+	letter-spacing: .063em;
+	margin-bottom: .25em;
+	  text-transform:uppercase;
+  }
+  strong {
+	  font-family: $font-bold;
+  }
+  p {
+	line-height: 1.75;
+	margin-bottom: 1em;
+  }
+
+a {
+	color:$white-color;
+	outline:none;
+	text-decoration: none;
+	border:0;
+	font-family: $font-reg;
+	background:$link-color
+  }
+  a:hover, a:focus{
+	color:$white-color;
+	background:$link-color
+  }
+
+
+header {
+	  background:$bg-color;
+	  width:100%;
+	  padding:1em 2em;
+	  margin-bottom:4em;
+  
+	.logo{
+	   width:3.25em;
+	   display:inline-block;
+	   vertical-align: middle;
+		 margin-right:.75em;
+		 background:transparent;
+		 border:0;
+	}
+
+	h2{
+	  margin:0;
+	  display:inline-block;
+	  vertical-align: middle;
+	  margin-right:.25em;
+	}
+	.ailment{
+		font-family: $font-light;
+	}
+	
+}
+
+.btn{
+	background:$link-color;
+	width:5em;
+	padding:.75em 2em;
+	display:block;
+	text-align: center;
+	line-height:1;
+	margin:2em auto;
+	color:$white-color;
+	cursor: pointer;
+
+	img{
+		width:100%;
+	}
+}
+
+.start{
+	font-size:2em;
+}
+
+.welcome{
+	span{
+		display:block;
+		font-size:.5em;
+		font-family: $font-light;
+	}
+}
+
+input{
+	border:0;
+	border-bottom:1px solid #ddd;
+	font-size:2em;
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	width:60%;
+	color:$link-color;
+	text-transform: uppercase;
+	outline:none;
+	text-decoration: none;
+}
+
+/*  Progress Circle  */
+$circle-size: 12em;
+$circle-background:#ccc;
+$circle-color:$link-color;
+$inset-size: 10em;
+$inset-color: #fbfbfb;
+$transition-length: .3s;
+
+.ko-progress-circle {
+	display:none;
+	margin: 1em auto;
+	width:  $circle-size;
+	height: $circle-size;
+
+	background-color: $circle-background;
+	border-radius: 50%;
+		.ko-progress-circle__slice, .ko-progress-circle__fill {
+			width:    $circle-size;
+			height:   $circle-size;
+			position: absolute;
+			-webkit-backface-visibility: hidden;
+			transition: transform $transition-length;
+			border-radius: 50%;
+		}
+		.ko-progress-circle__slice {
+			clip: rect(0px, $circle-size, $circle-size, $circle-size/2);
+			.ko-progress-circle__fill {
+				clip: rect(0px, $circle-size/2, $circle-size, 0px);
+				background-color: $circle-color;
+			}
+	}
+	.ko-progress-circle__overlay {
+		width:       $inset-size;
+		height:      $inset-size;
+		position:    absolute;
+		margin-left: ($circle-size - $inset-size)/2;
+		margin-top:  ($circle-size - $inset-size)/2;
+
+		background-color: $inset-color;
+		border-radius: 50%;
+
+		span{
+			position: absolute;
+			top: 47%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			font-size: 3em;
+		}
+
+	}
+
+	$i: 0;
+	$increment: 180deg / 100;
+	@while $i <= 100 {
+		&[data-progress='#{$i}'] {
+				.ko-progress-circle__slice.full, .ko-progress-circle__fill {
+          transform: rotate($increment * $i);
+				}	
+				.ko-progress-circle__fill.ko-progress-circle__bar {
+					transform: rotate($increment * $i * 2);
+				}
+      $i: $i + 1;
+		}
+	}
+}
+
+h1.diagnosis{
+	color:$link-color;
+	margin-top:-.5em;
+	font-size:3.75em;
+}
+
+h3.step-text{
+	padding:0 3em;
+	margin-bottom:2em;
+}
+
+.healthy{
+	span{
+		display:block;
+		font-size:.75em;
+		margin-bottom:.5em;
+	}
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to{
+  opacity: 0
+}
+
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: all .75s;
+}
+.slide-fade-enter, .slide-fade-leave-active {
+  opacity: 0;
+}
+.slide-fade-enter {
+  transform: translateX(-4em);
+}
+.slide-fade-leave-active {
+  transform: translateX(4em);
+}
