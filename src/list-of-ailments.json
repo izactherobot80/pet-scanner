@@ -1,10 +1,454 @@
-[{"id":"1","name":"Aggression","step1":"Give the pet some affection","step2":"Give them some food to eat","step3":"Let them rest ","step4":"Talk with the pet about their problems","step5":"Apply 1 Soul Band-Aid","step6":"Have a supervised playime with another pet"},
-{"id":"2","name":"Appetite Gain","step1":"Check the food they have been eating","step2":"Take their temperature","step3":"Weigh the pet on a scale","step4":"Ask the pet how much exercise they get each day","step5":"Take them on a walk","step6":"Do a yoga story with the pet"},
-{"id":"3","name":"Appetite Loss","step1":"Check the food they have been eating","step2":"Take their temperature","step3":"Weigh the pet on a scale","step4":"Give the pet something healthy to eat","step5":"Talk to the pet about their problems","step6":"Give the pet more food to eat"},
-{"id":"4","name":"Back Pain","step1":"Check the pet's back for any injuries","step2":"Wrap the pet in some bandage to keep thier back straight","step3":"Lay them down in a soft place","step4":"Play some card games with the pet until their back heals","step5":"Take them on a slow walk to see if their back has healed","step6":"Make sure the pet doesn't do anything to injure their back again"},
-{"id":"5","name":"Bad breath","step1":"Check the pet's food for stinky onions or garlic","step2":"Take a look inside the pet's mouth","step3":"Remove any badness that you find in the pet's mouth","step4":"Ask the pet how often they brush their teeth","step5":"Brush the pet's teeth","step6":"Give the pet a breath mint"},
-{"id":"6","name":"Behavior Changes","step1":"Ask the pet what seems to be bothering them","step2":"Try to fix anything they mention","step3":"Let them rest ","step4":"Give them some food to eat","step5":"Apply 1 Soul Band-Aid","step6":"Have them back in 1 week to check progress"},
-{"id":"7","name":"Bloating","step1":"Meaure the pet's belly","step2":"Ask the pet if they recently swallowed any large","step3":"If they haven't, then probably have gas","step4":"Give them an Antacid","step5":"Give them 1 glass of water to drink","step6":"Help them burp out all the gas"},
-{"id":"8","name":"Breathing Difficulties","step1":"Check the pet's mouth for anything that might be stuck in their throat","step2":"If you find a whistle or anything else, pull it out","step3":"If there is nothing stuck, then put them on oxygen","step4":"Give them 2 more treatments of oxygen","step5":"Have them back in 1 week to check progress","step6":"If still having strouble breathing, give them more oxygen"},
-{"id":"9","name":"Coughing","step1":"Take their temperature","step2":"Ask the pet how often they are coughing","step3":"Check their throat to see if it is red","step4":"Give them a throat lozenge","step5":"Instruct the pet to cover their mouth when they cough","step6":"Have them back in 1 week to check progress"},
-{"id":"10","name":"Dehydration","step1":"Give the pet some water to drink","step2":"Give the pet a bath in some clean water","step3":"Give the pet more water to drink","step4":"Ask the pet why they haven't been drinking enough water","step5":"Give them more water to drink","step6":"Take them swimming for at least 1 hour"}]
+[
+  
+ {
+      "id": "1",
+      "name": "Aggression",
+      "step1": "Give the pet some affection",
+      "step2": "Give them some food to eat",
+      "step3": "Let them rest",
+      "step4": "Talk with the pet about their problems",
+      "step5": "Apply 1 Soul Band-Aid",
+      "step6": "Have a supervised playime with another pet"
+    },
+  {
+      "id": "2",
+      "name": "Appetite Gain",
+      "step1": "Check the food they have been eating",
+      "step2": "Take their temperature",
+      "step3": "Weigh the pet on a scale",
+      "step4": "Ask the pet how much exercise they get each day",
+      "step5": "Take them on a walk",
+      "step6": "Do a yoga story with the pet"
+    },
+   {
+      "id": "3",
+      "name": "Appetite Loss",
+      "step1": "Check the food they have been eating",
+      "step2": "Take their temperature",
+      "step3": "Weigh the pet on a scale",
+      "step4": "Give the pet something healthy to eat",
+      "step5": "Talk to the pet about their problems",
+      "step6": "Give the pet more food to eat"
+    },
+  {
+      "id": "4",
+      "name": "Back Pain",
+      "step1": "Check the pet's back for any injuries",
+      "step2": "Wrap the pet in some bandage to keep thier back straight",
+      "step3": "Lay them down in a soft place",
+      "step4": "Play some card games with the pet until their back heals",
+      "step5": "Take them on a slow walk to see if their back has healed",
+      "step6": "Make sure the pet doesn't do anything to injure their back again"
+    },
+ {
+      "id": "5",
+      "name": "Bad breath",
+      "step1": "Check the pet's food for stinky onions or garlic",
+      "step2": "Take a look inside the pet's mouth",
+      "step3": "Remove any badness that you find in the pet's mouth",
+      "step4": "Ask the pet how often they brush their teeth",
+      "step5": "Brush the pet's teeth",
+      "step6": "Give the pet a breath mint"
+    },
+    {
+      "id": "6",
+      "name": "Behavior Changes",
+      "step1": "Ask the pet what seems to be bothering them",
+      "step2": "Try to fix anything they mention",
+      "step3": "Let them rest",
+      "step4": "Give them some food to eat",
+      "step5": "Apply 1 Soul Band-Aid",
+      "step6": "Have them back in 1 week to check progress"
+    },
+  {
+      "id": "7",
+      "name": "Bloating",
+      "step1": "Meaure the pet's belly",
+      "step2": "Ask the pet if they recently swallowed any large",
+      "step3": "If they haven't, then probably have gas",
+      "step4": "Give them an Antacid",
+      "step5": "Give them 1 glass of water to drink",
+      "step6": "Help them burp out all the gas"
+    },
+ {
+      "id": "8",
+      "name": "Breathing Difficulties",
+      "step1": "Check the pet's mouth for anything that might be stuck in their throat",
+      "step2": "If you find a whistle or anything else, pull it out",
+      "step3": "If there is nothing stuck, then put them on oxygen",
+      "step4": "Give them 2 more treatments of oxygen",
+      "step5": "Have them back in 1 week to check progress",
+      "step6": "If still having trouble breathing, give them more oxygen"
+    },
+    {
+      "id": "9",
+      "name": "Coughing",
+      "step1": "Take their temperature",
+      "step2": "Ask the pet how often they are coughing",
+      "step3": "Check their throat to see if it is red",
+      "step4": "Give them a throat lozenge",
+      "step5": "Instruct the pet to cover their mouth when they cough",
+      "step6": "Have them back in 1 week to check progress"
+    },
+    {
+      "id": "10",
+      "name": "Dehydration",
+      "step1": "Give the pet some water to drink",
+      "step2": "Give the pet a bath in some clean water",
+      "step3": "Give the pet more water to drink",
+      "step4": "Ask the pet why they haven't been drinking enough water",
+      "step5": "Give them more water to drink",
+      "step6": "Take them swimming for at least 1 hour"
+    },
+   {
+      "id": "11",
+      "name": "Depression",
+      "step1": "Exercise with the pet",
+      "step2": "Give the pet something to chew on",
+      "step3": "Exercise with the pet",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "12",
+      "name": "Very Thirsty",
+      "step1": "Take a blood sample",
+      "step2": "Take a urine sample",
+      "step3": "Give the pet medicine to control cortisol",
+      "step4": "Give regular checkups",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "13",
+      "name": "Lots of Drool",
+      "step1": "Check teeth and gums.",
+      "step2": "If something is stuck, gently pull it out.",
+      "step3": "Brush and floss teeth.",
+      "step4": "GIve them water to drink.",
+      "step5": "Give regular dental checkups.",
+      "step6": ""
+    },
+  {
+      "id": "14",
+      "name": "Itchy Ears",
+      "step1": "Check ears for dirt or bugs",
+      "step2": "Clean the ears with wipes",
+      "step3": "Apply \"ointment\" to ears",
+      "step4": "Give hugs and loves and send them away",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "15",
+      "name": "Eyes Are Red",
+      "step1": "Check eyeballs for foreign objects.",
+      "step2": "If no foreign object, check for runny nose.",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+     {
+      "id": "16",
+      "name": "Fainting",
+      "step1": "Hold something smelly under the pets nose to revive it",
+      "step2": "If pet revives, make sure they've eaten",
+      "step3": "Verify the pet is not over excited or worked.",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "17",
+      "name": "Falling",
+      "step1": "Check all joints for mobility",
+      "step2": "Any joint that clicks or locks up, take an X-ray",
+      "step3": "Broken leg? Wrap with gauze and set in a splint",
+      "step4": "Don't forget the antibiotics and pain meds!",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "18",
+      "name": "Fever",
+      "step1": "Check gums, nose, eyes and ears",
+      "step2": "If the pet is lethargic, draw blood",
+      "step3": "Give pet water and small amount of food.",
+      "step4": "Blood counts are perfect!  Minor infection, give antibiotics.",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "19",
+      "name": "Hair Loss",
+      "step1": "Take temperature, check eyes, ears, gums, and nose.",
+      "step2": "Comb the pet's hair to make sure there are no fleas.",
+      "step3": "If no fleas, take a skin scraping and send to lab",
+      "step4": "Possibility of Mange, use a special shampoo for all baths, and give \"mite\" treatment",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "20",
+      "name": "Dry Hair",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "21",
+      "name": "Head Shaking",
+      "step1": "Check ears",
+      "step2": "Ears are dirty!  Clean them",
+      "step3": "If there are things crawling in the ears, check for mites",
+      "step4": "Use Mite ear cleaner to wipe ears",
+      "step5": "",
+      "step6": ""
+    },
+ {
+      "id": "22",
+      "name": "Inflammed Joints",
+      "step1": "Check the age of pet",
+      "step2": "See what food the pet is on",
+      "step3": "Give pet glucosamine tablets",
+      "step4": "Have them take tylenol to help with pain",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "23",
+      "name": "Itching All Over",
+      "step1": "Comb pet with flea comb",
+      "step2": "Ask when they last had their flea medicine",
+      "step3": "If over a month ago, give them new flea medicine",
+      "step4": "Give them a flea bath",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "24",
+      "name": "Trouble Walking",
+      "step1": "Touch pad of feet and legs for any tender areas",
+      "step2": "If they jerk their feet away, look closer at feet for wound",
+      "step3": "Open wound requires a cleaning and wrap",
+      "step4": "No wound?  check toenails and make sure they are short enough for pet to walk.",
+      "step5": "",
+      "step6": ""
+    },
+ {
+      "id": "25",
+      "name": "Always Tired",
+      "step1": "Ask the pet what time they've been going to bed",
+      "step2": "Ask what time they've been waking up.",
+      "step3": "If pet is receiving less than 8 hours of sleep, they need to go to bed sooner.",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "26",
+      "name": "Nasal Discharge",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+{
+      "id": "27",
+      "name": "Odor Coming From Ear",
+      "step1": "Look in the ears",
+      "step2": "If ears are dirty, clean them",
+      "step3": "Make sure ears are not red and inflamed",
+      "step4": "Prescribe antibiotics if infected",
+      "step5": "If not infected, make sure ears are cleaned on a regular basis",
+      "step6": ""
+    },
+   {
+      "id": "28",
+      "name": "Odor Coming From Rear End",
+      "step1": "Tell the animal to go POOP",
+      "step2": "Make sure the animals bottom is cleaned with no residual fecal matter left behind.",
+      "step3": "See what the pet has eaten lately",
+      "step4": "Remind pet that people food is NOT for them.",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "29",
+      "name": "Odor Coming From The Skin",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "30",
+      "name": "Pale Gums",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "31",
+      "name": "Pale Tongue",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "32",
+      "name": "Pain",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+ {
+      "id": "33",
+      "name": "Lots Of Panting",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+{
+      "id": "34",
+      "name": "Pot Belly",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "35",
+      "name": "Lots Of Scratching",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "36",
+      "name": "Sneezing",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "37",
+      "name": "Squinting",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "38",
+      "name": "Stiffness",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+ {
+      "id": "39",
+      "name": "Lots Of Potty",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+  {
+      "id": "40",
+      "name": "Vomiting",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+    {
+      "id": "41",
+      "name": "Watery Eyes",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "42",
+      "name": "Weight Gain",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "43",
+      "name": "Weight Loss",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "44",
+      "name": "Wheezing",
+      "step1": "",
+      "step2": "",
+      "step3": "",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    },
+   {
+      "id": "45",
+      "name": "Cold",
+      "step1": "Cover the pet with a blanket",
+      "step2": "Give the pet a warm drink and warm food",
+      "step3": "Snuggle with the pet",
+      "step4": "",
+      "step5": "",
+      "step6": ""
+    }
+ 
+]

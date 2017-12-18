@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import ailments from './list-of-ailments.json'
+import ailments from './list-of-ailments.json';
 
 export default {
   name: 'app',
@@ -18,7 +18,7 @@ export default {
   data () {
     return {
       petname: '',
-      ailment: {},
+      ailment: {}
     }
   },
   watch: {
