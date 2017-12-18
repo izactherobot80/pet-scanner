@@ -24,7 +24,7 @@ export default {
   props:['petname','ailment'],
   methods : {
     showProgress () {
-      var vm = this.$router;
+      let vm = this.$router;
       $('.start').fadeOut(function(){
         $('.ko-progress-circle').fadeIn(function(){
           $('.scan').text($('.scan').text().replace('Scan', 'Scanning'));
