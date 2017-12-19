@@ -1,28 +1,3 @@
-/*@font-face {
-	font-family: 'HL';
-	src: url('./fonts/HindMadurai-Light.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'HR';
-	src: url('./fonts/HindMadurai-Regular.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'HB';
-	src: url('./fonts/HindMadurai-Bold.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-$font-bold: 'HB',sans-serif;
-$font-light: 'HL',sans-serif;
-$font-reg: 'HR',sans-serif;*/
-
 @font-face {
 	font-family: 'BL';
 	src: url('./fonts/Barlow-ExtraLight.ttf') format('truetype');
@@ -169,7 +144,7 @@ header {
 
 .btn{
 	background:$link-color;
-	width:5em;
+	width:4em;
 	padding:.75em 2em;
 	display:block;
 	text-align: center;
@@ -278,7 +253,8 @@ $transition-length: .3s;
 h1.diagnosis{
 	color:$link-color;
 	margin-top:-.5em;
-	font-size:3.75em;
+	font-size:3.25em;
+	letter-spacing: .15em;
 }
 
 h1.diagnosis-title{

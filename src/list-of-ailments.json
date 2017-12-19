@@ -1,6 +1,6 @@
 
 [
- {
+   {
       "id": "1",
       "name": "Aggressive Behavior",
       "step1": "Give the pet some affection",
@@ -30,7 +30,7 @@
       "step5": "Talk to the pet about their problems",
       "step6": "Give the pet more food to eat"
     },
-   {
+    {
       "id": "4",
       "name": "Back Pain",
       "step1": "Check the pet's back for any injuries",
@@ -40,7 +40,7 @@
       "step5": "Take them on a slow walk to see if their back has healed",
       "step6": "Make sure the pet doesn't do anything to injure their back again"
     },
-    {
+   {
       "id": "5",
       "name": "Bad breath",
       "step1": "Check the pet's food for stinky onions or garlic",
@@ -60,7 +60,7 @@
       "step5": "Apply 1 Soul Band-Aid",
       "step6": "Have them back in 1 week to check progress"
     },
-  {
+   {
       "id": "7",
       "name": "Bloating",
       "step1": "Meaure the pet's belly",
@@ -70,7 +70,7 @@
       "step5": "Give them 1 glass of water to drink",
       "step6": "Help them burp out all the gas"
     },
-{
+    {
       "id": "8",
       "name": "Breathing Difficulties",
       "step1": "Check the pet's mouth for anything that might be stuck in their throat",
@@ -80,7 +80,7 @@
       "step5": "Have them back in 1 week to check progress",
       "step6": "If still having trouble breathing, give them more oxygen"
     },
-{
+   {
       "id": "9",
       "name": "Excessive Coughing",
       "step1": "Take their temperature",
@@ -110,9 +110,9 @@
       "step5": "",
       "step6": ""
     },
-   {
+  {
       "id": "12",
-      "name": "BeingThirsty",
+      "name": "Being Thirsty",
       "step1": "Take a blood sample",
       "step2": "Take a urine sample",
       "step3": "Give the pet medicine to control cortisol",
@@ -120,9 +120,9 @@
       "step5": "",
       "step6": ""
     },
-   {
+  {
       "id": "13",
-      "name": "Excess Drool",
+      "name": "Excessive Drooling",
       "step1": "Check teeth and gums.",
       "step2": "If something is stuck, gently pull it out.",
       "step3": "Brush and floss teeth.",
@@ -130,7 +130,7 @@
       "step5": "Give regular dental checkups.",
       "step6": ""
     },
-   {
+  {
       "id": "14",
       "name": "Itchy Ears",
       "step1": "Check ears for dirt or bugs",
@@ -140,7 +140,7 @@
       "step5": "",
       "step6": ""
     },
-   {
+ {
       "id": "15",
       "name": "Red Eyes",
       "step1": "Check eyeballs for foreign objects.",
@@ -150,7 +150,7 @@
       "step5": "",
       "step6": ""
     },
- {
+   {
       "id": "16",
       "name": "Excessive Fainting",
       "step1": "Hold something smelly under the pets nose to revive it",
@@ -160,7 +160,7 @@
       "step5": "",
       "step6": ""
     },
-{
+    {
       "id": "17",
       "name": "Excessive Falling",
       "step1": "Check all joints for mobility",
@@ -170,7 +170,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+  {
       "id": "18",
       "name": "A Fever",
       "step1": "Check gums, nose, eyes and ears",
@@ -180,7 +180,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+  {
       "id": "19",
       "name": "Hair Loss",
       "step1": "Take temperature, check eyes, ears, gums, and nose.",
@@ -200,7 +200,7 @@
       "step5": "",
       "step6": ""
     },
-{
+  {
       "id": "21",
       "name": "Excessive Head Shaking",
       "step1": "Check ears",
@@ -210,7 +210,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+   {
       "id": "22",
       "name": "Inflammed Joints",
       "step1": "Check the age of pet",
@@ -230,7 +230,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+{
       "id": "24",
       "name": "Trouble Walking",
       "step1": "Touch pad of feet and legs for any tender areas",
@@ -240,7 +240,7 @@
       "step5": "",
       "step6": ""
     },
- {
+  {
       "id": "25",
       "name": "Always Being Tired",
       "step1": "Ask the pet what time they've been going to bed",
@@ -260,9 +260,9 @@
       "step5": "",
       "step6": ""
     },
-    {
+{
       "id": "27",
-      "name": "Odor Coming From The Ears",
+      "name": "Odor In The  Ears",
       "step1": "Look in the ears",
       "step2": "If ears are dirty, clean them",
       "step3": "Make sure ears are not red and inflamed",
@@ -270,9 +270,9 @@
       "step5": "If not infected, make sure ears are cleaned on a regular basis",
       "step6": ""
     },
-   {
+  {
       "id": "28",
-      "name": "Odor Coming From The Rear End",
+      "name": "Rear End Odor",
       "step1": "Tell the animal to go POOP",
       "step2": "Make sure the animals bottom is cleaned with no residual fecal matter left behind.",
       "step3": "See what the pet has eaten lately",
@@ -280,9 +280,9 @@
       "step5": "",
       "step6": ""
     },
- {
+   {
       "id": "29",
-      "name": "Odor Coming From The Skin",
+      "name": "Skin Odor",
       "step1": "",
       "step2": "",
       "step3": "",
@@ -290,7 +290,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+ {
       "id": "30",
       "name": "Pale Gums",
       "step1": "",
@@ -300,7 +300,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+   {
       "id": "31",
       "name": "A Pale Tongue",
       "step1": "",
@@ -310,7 +310,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+   {
       "id": "32",
       "name": "Pain",
       "step1": "",
@@ -320,7 +320,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+   {
       "id": "33",
       "name": "Excessive Panting",
       "step1": "",
@@ -330,7 +330,7 @@
       "step5": "",
       "step6": ""
     },
- {
+     {
       "id": "34",
       "name": "A Pot Belly",
       "step1": "",
@@ -340,7 +340,7 @@
       "step5": "",
       "step6": ""
     },
-   {
+ {
       "id": "35",
       "name": "Excessive Scratching",
       "step1": "",
@@ -350,7 +350,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+   {
       "id": "36",
       "name": "Excessive Sneezing",
       "step1": "",
@@ -370,7 +370,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+    {
       "id": "38",
       "name": "Stiffness",
       "step1": "",
@@ -380,7 +380,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+{
       "id": "39",
       "name": "Excessive Potty",
       "step1": "",
@@ -390,7 +390,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+   {
       "id": "40",
       "name": "Vomiting",
       "step1": "",
@@ -400,7 +400,7 @@
       "step5": "",
       "step6": ""
     },
-    {
+   {
       "id": "41",
       "name": "Watery Eyes",
       "step1": "",
@@ -420,7 +420,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+   {
       "id": "43",
       "name": "Weight Loss",
       "step1": "",
@@ -430,7 +430,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+    {
       "id": "44",
       "name": "Wheezing",
       "step1": "",
@@ -440,7 +440,7 @@
       "step5": "",
       "step6": ""
     },
-  {
+ {
       "id": "45",
       "name": "A Cold",
       "step1": "Cover the pet with a blanket",
