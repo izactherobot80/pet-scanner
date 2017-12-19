@@ -20,6 +20,10 @@
 
 <script>
 export default {
+  created () {
+    $('#virtualKeyboardChromeExtensionOverlayScrollExtend').css('display','none');
+    $("html, body").animate({scrollTop:0}, 500, 'swing');
+  },
   name: 'scan',
   props:['petname','ailment'],
   methods : {
