@@ -2,7 +2,7 @@
   <div id="app">
     <app-header :petname="petname" :ailment="ailment"></app-header>
     <transition name="slide-fade" mode="out-in">
-    <router-view @addPetName="setPetName" :petname="petname" :ailment="ailment"></router-view>
+    <router-view @updatePetName="setPetName" :petname="petname" :ailment="ailment"></router-view>
     </transition>
   </div>
 </template>
@@ -22,8 +22,8 @@ export default {
     }
   },
   methods :{
-    setPetName (petN) {
-      this.petname = petN;
+    setPetName (value) {
+      this.petname = value;
     }
   },
   watch: {
